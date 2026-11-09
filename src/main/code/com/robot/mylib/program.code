@@ -3,6 +3,10 @@ namespace com.robot.mylib
 # What a project that links this library may use: each declaration marked export.
 export let answer(): i32 = 42
 
+export trait MyTrait {
+  let x() : i32
+}
+
 ## This is a class
 # a class
 export class MyClass {
