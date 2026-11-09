@@ -1,0 +1,8 @@
+namespace com.robot.mylib
+
+# What a project that links this library may use: each declaration marked export.
+export let answer(): i32 = 42
+
+export class MyClass {
+  let x = 10
+}
